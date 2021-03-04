@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="to_do_list.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 id="heading">To Do List</h2>
+        <input type="text" id="myInput" placeholder="New To Do...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+      <ul id="myUL">
+        <li class="checked">Review Class Slides</li>
+        <li>Complete Lab Work</li>
+        <li>Practice on Code Academy</li>
+        <li class="checked">Practice on Freecodecamp</li>
+        <li>Create Projects on VS Code</li>
+        <li>Complete Assignments</li>
+        <li>Push the code into GitHub</li>
+      </ul>
+      <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+    <script src="to_do_list.js"></script>
+</body>
+</html>
